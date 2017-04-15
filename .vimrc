@@ -1,4 +1,4 @@
-"vundle
+"v<plug>ndle
 set nocompatible
 filetype off
 
@@ -129,3 +129,12 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 "powerline setting
 set laststatus=2
 let g:Powerline_symbols='unicode'
+
+"NERDTree plug-mapping
+map <C-l> :tabn<CR>
+map <C-h> :tabp<CR>
+map <C-n> :tabnew<CR>
+map <C-k> :bn<CR>
+map <C-j> :bp<CR>
+let g:nerdtree_tabs_open_on_console_startup=1
+map <Leader>n :NERDTreeTabsToggle<CR>
